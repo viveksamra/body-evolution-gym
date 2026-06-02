@@ -483,6 +483,22 @@ h1 {
   font-weight: 900;
 }
 
+.price,
+.membership-price {
+  margin-bottom: 14px;
+  color: white;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.price {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+}
+
+.membership-price {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
 .gallery-grid {
   display: grid;
   gap: 18px;
@@ -618,6 +634,14 @@ h1 {
     linear-gradient(180deg, rgba(229, 9, 20, 0.2), rgba(255, 255, 255, 0.028)),
     var(--panel);
   transform: translateY(-16px);
+}
+
+.girls-fees-section {
+  padding-top: 0;
+}
+
+.girls-card {
+  border-color: rgba(255, 255, 255, 0.14);
 }
 
 .contact-layout {
